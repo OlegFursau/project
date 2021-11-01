@@ -1,0 +1,56 @@
+//main: ../style.less
+
+header{
+    max-width: 1920px;
+    width: 100%;
+    position: relative;
+    
+    padding: 0;
+    margin: 0;
+    
+    
+    
+}
+.header__inner{
+    background-color: @blue;
+    
+    border-bottom: 1px solid #a1a1a181 ;
+    height: 100px;
+    
+
+    
+
+}
+.header__nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2.6rem 0;
+    margin: 0;
+    text-decoration: none;
+    
+
+}
+.header__navLink{
+    list-style: none;
+    margin-left: 2.6rem;
+    padding-bottom: 2.3rem;
+    
+    
+    &:hover{
+        border-bottom: 2px solid @white;
+        transition: .1s linear;
+    }
+}
+.header__link{
+    font-size: 1rem;
+    font-weight: 500;
+    color: @white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+
+.header__title{
+    display: block;
+    background-image: url(//image/backHeder.jpeg);
+}
